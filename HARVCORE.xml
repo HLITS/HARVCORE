@@ -31,13 +31,20 @@
         <dcterms:modified>2017-05-19 (New)</dcterms:modified>
     </owl:Class>
     
-    <owl:Class rdf:about="http://harvcore.org/ontology/HGLID">
-        <rdfs:label>Harvard GeoSpatial Library local identifier</rdfs:label>
+	<owl:Class rdf:about="http://harvcore.org/ontology/HOLLISNumber">
+        <rdfs:label>HOLLIS local identifier</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/HarvardLocal"/>
-        <skos:definition>Identifier established locally at Harvard GeoSpatial Library and not a standard number.</skos:definition>
+        <skos:definition>HOLLIS (Harvard OnLine Library Information System) local catalog number that identifies a resource description.</skos:definition>
+        <dcterms:modified>2017-10-05 (New)</dcterms:modified>
+    </owl:Class>
+	
+    <owl:Class rdf:about="http://harvcore.org/ontology/HGLID">
+        <rdfs:label>Harvard Geospatial Library local identifier</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/HarvardLocal"/>
+        <skos:definition>Identifier established locally for the Harvard Geospatial Library and not a standard number.</skos:definition>
         <dcterms:modified>2017-05-19 (New)</dcterms:modified>
     </owl:Class>
-    
+    	
     <owl:Class rdf:about="http://harvcore.org/ontology/HFANumber">
         <rdfs:label>Harvard Film Archive local identifier</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://id.loc.gov/ontologies/bibframe/HarvardLocal"/>
